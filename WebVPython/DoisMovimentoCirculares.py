@@ -5,12 +5,9 @@ def calcular_y(pos_x, r):
     return sqrt(r**2 - (pos_x - 10)**2) + 10
 
 
-planeta = sphere(pos=vector(10, 10, 0), radius=5, color=vector(1, 0, 0))  # Cor: Vermelho
-
-satelite1 = sphere(pos=vector(10, 0, 10), radius=1, color=vector(1, 1, 1), make_trail=True)  # Cor: Branco
-
-satelite2 = sphere(pos=vector(30, 0, 0), radius=1, color=vector(0, 1, 1), make_trail=True)  # Cor: Ciano
-
+planeta = sphere(pos=vector(10, 10, 0), radius=5, color=vector(1, 0, 0))  
+satelite1 = sphere(pos=vector(10, 0, 10), radius=1, color=vector(1, 1, 1), make_trail=True)  
+satelite2 = sphere(pos=vector(30, 0, 0), radius=1, color=vector(0, 1, 1), make_trail=True)  
 # Direção de movimento para o PRIMEIRO satélite
 direcao1 = 1
 x1 = 0
